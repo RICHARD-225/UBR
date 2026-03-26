@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "public": "UBR-FRONTEND",
+  "rewrites": [
+    { "source": "/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/components/:path*", "destination": "/components/:path*" },
+    { "source": "/pages/:path*", "destination": "/pages/:path*" },
+    { "source": "/", "destination": "/pages/index.html" },
+    { "source": "/:path*", "destination": "/pages/:path*" }
+  ]
+}
